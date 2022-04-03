@@ -2,3 +2,8 @@
 1.撤销1、2个文件  git checkout head readme.txt todo.txt
 2.撤销所有txt文件 git checkout head *.txt
 3.撤销所有文件    git checkout head .
+
+
+取消暂存区的文件：
+1.git restore --stage <file>
+2.git reset HEAD <file>
