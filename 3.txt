@@ -7,5 +7,6 @@
 取消暂存区的文件：
 1.git restore --stage <file>
 2.git reset HEAD <file>
-3.nothing to do！
-4.Fall in love!
+3.git rest 取消暂存区的所有文件
+4.git add . 将工作去的所有文件提交至暂存区中
+
